@@ -32,9 +32,9 @@ Raspberry Pi 5 ([Buildroot board support](https://github.com/buildroot/buildroot
 
 ## Previous Assignment Content
 
-- `aesdsocket` (Assignments 5–6), extended to serve over the wireless interface
-- `aesd-char-driver` (Assignments 8–9), used as the on-target log store
-- Buildroot external tree (Assignment 4), adapted for the Pi 5
+- `aesdsocket` (Assignments 5–6), extended to serve over the wireless interface: [aeld-assignment-3-and-later](https://github.com/Jackson-Galloway/aeld-assignment-3-and-later)
+- `aesd-char-driver` (Assignments 8–9), used as the on-target log store: [aeld-assignment-3-and-later](https://github.com/Jackson-Galloway/aeld-assignment-3-and-later)
+- Buildroot external tree (Assignment 4), adapted for the Pi 5: [aeld-assignment-4](https://github.com/Jackson-Galloway/aeld-assignment-4)
 
 ## Course Content Covered
 
@@ -50,10 +50,9 @@ Not used with any other course.
 
 ## Source Code Organization
 
-- [`<final-project-repo>`](https://github.com/<org>/<final-project-repo>): Buildroot external tree, rootfs overlay, init scripts, PC client
-- [`<assignments-repo>`](https://github.com/<org>/<assignments-repo>): `aesdsocket` and `aesd-char-driver` source
-- [`<projects-board-repo>`](https://github.com/<your-username>/<projects-board-repo>): GitHub Projects board
+- [aeld-final-project](https://github.com/Jackson-Galloway/aeld-final-project): Buildroot external tree, rootfs overlay, init scripts, PC client
+- [aeld-assignment-3-and-later](https://github.com/Jackson-Galloway/aeld-assignment-3-and-later): `aesdsocket` and `aesd-char-driver` source
 
 ## Schedule
-
-See the [Schedule page](<link-to-schedule-wiki-page>).# Project Overview: PiLink
+See the [Schedule page](https://github.com/Jackson-Galloway/aeld-final-project/wiki/Schedule).
+See the [project schedule board](https://github.com/users/Jackson-Galloway/projects/2/views/4).

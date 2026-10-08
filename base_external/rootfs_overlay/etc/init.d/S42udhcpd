@@ -1,0 +1,20 @@
+#!/bin/sh
+# S42udhcpd - hand out DHCP leases to clients on the PiLink network
+
+case "$1" in
+	start)
+		echo "Starting udhcpd"
+		mkdir -p /var/lib/misc
+		start-stop-daemon -S -n udhcpd -a /usr/sbin/udhcpd -- /etc/udhcpd.conf
+		;;
+	stop)
+		echo "Stopping udhcpd"
+		start-stop-daemon -K -n udhcpd -s TERM
+		;;
+	*)
+		echo "Usage: $0 {start|stop}"
+		exit 1
+		;;
+esac
+
+exit 0

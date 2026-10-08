@@ -1,0 +1,19 @@
+#!/bin/sh
+# S02brcmfmac - load the onboard Wi-Fi driver
+
+case "$1" in
+	start)
+		echo "Loading brcmfmac"
+		modprobe brcmfmac
+		;;
+	stop)
+		echo "Unloading brcmfmac"
+		rmmod brcmfmac 2>/dev/null
+		;;
+	*)
+		echo "Usage: $0 {start|stop}"
+		exit 1
+		;;
+esac
+
+exit 0

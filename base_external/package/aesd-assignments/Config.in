@@ -1,0 +1,7 @@
+
+config BR2_PACKAGE_AESD_ASSIGNMENTS
+	bool "aesd-assignments"
+	depends on BR2_LINUX_KERNEL
+	help
+	  Includes the aesdsocket server and the aesdchar kernel module,
+	  pulled from aeld-assignment-3-and-later, in the PiLink image.
