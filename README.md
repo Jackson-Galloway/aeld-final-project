@@ -1,5 +1,9 @@
 # Project Overview: PiLink
 
+See the [Project Overview Wiki Page](https://github.com/Jackson-Galloway/aeld-final-project/wiki/Project-Overview) and the [Schedule Wiki Page](https://github.com/Jackson-Galloway/aeld-final-project/wiki/Schedule) for more detail.
+
+See the [Project Schedule Board](https://github.com/users/Jackson-Galloway/projects/2/views/4).
+
 ## Overview
 
 PiLink turns a Raspberry Pi 5 into a self-hosted wireless access point. At power-on, the Pi starts its own Wi-Fi network, hands out addresses to connecting devices, and accepts SSH logins, so a PC can connect and work with it without any cables or existing network. The `aesdsocket` server and `aesdchar` driver from earlier assignments run over this link, with a Python client on the PC. The motivation is to learn how headless embedded Linux devices are reached and configured in the field, a pattern used by IoT setup modes and portable appliances.
@@ -34,7 +38,7 @@ Raspberry Pi 5 ([Buildroot board support](https://github.com/buildroot/buildroot
 
 - `aesdsocket` (Assignments 5–6), extended to serve over the wireless interface: [aeld-assignment-3-and-later](https://github.com/Jackson-Galloway/aeld-assignment-3-and-later)
 - `aesd-char-driver` (Assignments 8–9), used as the on-target log store: [aeld-assignment-3-and-later](https://github.com/Jackson-Galloway/aeld-assignment-3-and-later)
-- Buildroot external tree (Assignment 4), adapted for the Pi 5: [aeld-assignment-4](https://github.com/Jackson-Galloway/aeld-assignment-4)
+- Buildroot external tree and packaging (Assignments 5, 7–9), adapted for the Pi 5: [aeld-assignment-9](https://github.com/Jackson-Galloway/aeld-assignment-9)
 
 ## Course Content Covered
 
@@ -54,5 +58,4 @@ Not used with any other course.
 - [aeld-assignment-3-and-later](https://github.com/Jackson-Galloway/aeld-assignment-3-and-later): `aesdsocket` and `aesd-char-driver` source
 
 ## Schedule
-See the [Schedule page](https://github.com/Jackson-Galloway/aeld-final-project/wiki/Schedule).
 See the [project schedule board](https://github.com/users/Jackson-Galloway/projects/2/views/4).
